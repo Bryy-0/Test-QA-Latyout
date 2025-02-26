@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="backButton" onclick="goBack()">←</button>
+            <h1>*Put the Website name Here</h1>
+        </header>
+        <main>
+            <div class="info-box">
+                <p>*Put here the list of details that you need for the sign up</p>
+                <button id="signUpButton" onclick="showPopup()">Sign Up</button>
+            </div>
+            <div class="image-placeholder">
+                *Put the company image here by full screen
+            </div>
+        </main>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Sign Up Window Pop up</h2>
+            <p>An confirmation email has been sent to your email account.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
